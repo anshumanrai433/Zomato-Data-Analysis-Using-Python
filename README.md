@@ -1,8 +1,6 @@
 # Zomato-Data-Analysis-Using-Python
 This project focuses on analyzing Zomato’s restaurant dataset to uncover insights related to customer preferences, cuisine trends, cost-effectiveness, and overall restaurant performance.
-# 🎓 **Student Performance Analysis**
-
-This project **analyzes student performance** based on various demographic and academic factors using a dataset of student test scores.  
+  
 It utilizes **Python** with libraries such as **Pandas**, **Matplotlib**, and **Seaborn** in a **Jupyter Notebook** environment.
 
 ---
@@ -12,7 +10,7 @@ It utilizes **Python** with libraries such as **Pandas**, **Matplotlib**, and **
 ```
 .
 ├── performance.ipynb         # 📘 Main Jupyter Notebook with analysis
-├── StudentsPerformance.csv   # 📊 Dataset containing student performance data
+├── ZomatoData.csv   # 📊 Dataset containing student performance data
 ├── README.md                 # 📄 Project documentation (this file)
 ```
 
@@ -57,18 +55,22 @@ jupyter notebook
 
 ---
 
-## 📊 **Dataset Description**
+## 📊 **Quick Insight**
 
-The `StudentsPerformance.csv` dataset contains the following columns:
 
-- **gender**
-- **race/ethnicity**
-- **parental level of education**
-- **lunch**
-- **test preparation course**
-- **math score**
-- **reading score**
-- **writing score**
+Most common restaurant: Cafe Coffee Day (83 occurrences)
+
+Top city by count: New Delhi (5,473 entries)
+
+Most popular cuisine: North Indian (936 entries)
+
+Currency types: 12 (e.g., INR, Dollar, Pound, etc.)
+
+Ratings range: 0.0 to 4.9
+
+Votes range: 0 to 10,934
+
+Missing data: Only Cuisines has a few missing values (9 missing)
 
 ---
 

@@ -1,52 +1,86 @@
 # Zomato-Data-Analysis-Using-Python
 This project focuses on analyzing Zomato’s restaurant dataset to uncover insights related to customer preferences, cuisine trends, cost-effectiveness, and overall restaurant performance.
- Student Performance Analysis
+# 🎓 **Student Performance Analysis**
 
-📁 Project Structure
-. 
+This project **analyzes student performance** based on various demographic and academic factors using a dataset of student test scores.  
+It utilizes **Python** with libraries such as **Pandas**, **Matplotlib**, and **Seaborn** in a **Jupyter Notebook** environment.
+
+---
+
+## 📁 **Project Structure**
+
+```
+.
 ├── performance.ipynb         # 📘 Main Jupyter Notebook with analysis
-├── ZomataData.csv   # 📊 Dataset containing student performance data
+├── StudentsPerformance.csv   # 📊 Dataset containing student performance data
 ├── README.md                 # 📄 Project documentation (this file)
-✅ Requirements
+```
+
+---
+
+## ✅ **Requirements**
+
 Ensure the following packages are installed:
 
-Python 3.7+
-Jupyter Notebook or JupyterLab
-pandas
-matplotlib
-seaborn
-📦 Install via pip:
+- **Python 3.7+**
+- **Jupyter Notebook** or **JupyterLab**
+- **pandas**
+- **matplotlib**
+- **seaborn**
 
+📦 **Install via pip:**
+
+```bash
 pip install pandas matplotlib seaborn notebook
-🚀 How to Run the Project
-📥 Clone or download the repository.
-🖥️ Navigate to the project directory in your terminal:
+```
+
+---
+
+## 🚀 **How to Run the Project**
+
+1. 📥 **Clone or download** the repository.
+2. 🖥️ **Navigate to the project directory** in your terminal:
+
+```bash
 cd path_to_project_folder
-📂 Launch Jupyter Notebook:
+```
+
+3. 📂 **Launch Jupyter Notebook:**
+
+```bash
 jupyter notebook
-📑 Open the performance.ipynb file in the Jupyter interface.
+```
 
-▶️ Run the cells one by one to explore the analysis and visualizations.
+4. 📑 Open the **`performance.ipynb`** file in the Jupyter interface.
 
-🔍 Quick Insights
-Most common restaurant: Cafe Coffee Day (83 occurrences)
+5. ▶️ **Run the cells one by one** to explore the analysis and visualizations.
 
-Top city by count: New Delhi (5,473 entries)
+---
 
-Most popular cuisine: North Indian (936 entries)
+## 📊 **Dataset Description**
 
-Currency types: 12 (e.g., INR, Dollar, Pound, etc.)
+The `StudentsPerformance.csv` dataset contains the following columns:
 
-Ratings range: 0.0 to 4.9
+- **gender**
+- **race/ethnicity**
+- **parental level of education**
+- **lunch**
+- **test preparation course**
+- **math score**
+- **reading score**
+- **writing score**
 
-Votes range: 0 to 10,934
+---
 
-Missing data: Only Cuisines has a few missing values (9 missing)
+## ✨ **Features**
 
-✨ Features
-   📈 Exploratory Data Analysis (EDA)
-   🔍 Insights on correlation between demographics and scores
-   🎨 Data visualizations using Seaborn & Matplotlib
-📌 Notes
-   🛠️ Ensure Jupyter Notebook is properly installed to view and run the notebook.
-   🧼 The dataset is clean and ready for basic analysis without preprocessing.
+- 📈 **Exploratory Data Analysis (EDA)**
+- 🔍 **Insights on correlation** between demographics and scores
+- 🎨 **Data visualizations** using Seaborn & Matplotlib
+
+---
+
+## 📌 **Notes**
+
+- 🛠️ Ensure **Jupyter Notebook** is properly installed to view and run the notebook.
+- 🧼 The dataset is **clean** and ready for basic analysis without preprocessing.

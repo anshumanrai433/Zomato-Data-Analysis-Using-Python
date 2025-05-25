@@ -3,7 +3,7 @@ This project focuses on analyzing Zomato’s restaurant dataset to uncover insig
  Student Performance Analysis
 
 📁 Project Structure
-.
+. 
 ├── performance.ipynb         # 📘 Main Jupyter Notebook with analysis
 ├── ZomataData.csv   # 📊 Dataset containing student performance data
 ├── README.md                 # 📄 Project documentation (this file)
